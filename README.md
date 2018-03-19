@@ -7,3 +7,4 @@ scrapy crawl tripadvisor -o scrapedData.csv -s CLOSESPIDER_ITEMCOUNT=15000
 ```
 This is the scraped data stored in file scrapedData.csv. This needs to be preprocessed using csv_monkey_converter.py .
 The outcome of this step will be a .csv file which will be fed to the Monkeylearn model. Once the model is trained, we can test with our inputs.
+I referred to this blog: https://monkeylearn.com/blog/creating-sentiment-analysis-model-with-scrapy/
